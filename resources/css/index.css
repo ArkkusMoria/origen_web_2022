@@ -1,0 +1,151 @@
+html {
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 50px 20px 20px 20px;
+    font-family: "Roboto Mono", monospace;
+  }
+
+ .contenedornav {
+    background-color: whitesmoke;
+    border-radius: 12px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 50px 0px;
+    position: sticky;
+    top: 20px;
+    z-index: 5;
+  }
+
+  .menu-nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+
+  .menulinks {
+    padding-left: 30px;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .container_mainheader {
+    display: grid;
+    max-width: 1200px;
+    max-height: 700px;
+    position: relative;
+    margin: 0 auto;
+    gap: 10px;
+
+    grid-template-areas: "container_headerleft container_headerright";
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 600px 600px;
+  }
+
+  .container_headerleft {
+    grid-area: container_headerleft;
+  }
+
+  .container_headerright {
+    grid-area: container_headerright;
+    margin: 0 auto;
+  }
+
+  .container_headerleft h2 {
+    font-size: 80px;
+    text-align: left;
+  }
+
+  .container_headerleft p {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .contenedorimg {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    max-width: auto;
+  }
+  
+  h2 {
+    font-family: "Roboto Mono", monospace;
+    margin: 5px 0px 20px 0px;
+  }
+
+
+.typo {
+      font-family: "Roboto Mono", monospace;
+      font-weight: 400;
+      text-decoration: underline;
+  }
+
+  p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+  }
+
+
+.boton {
+      font-family: "Roboto Mono", monospace;
+      text-decoration: none;
+      color: black;
+      border-radius: 12px;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      transition-duration: 0.2s;
+
+  }
+
+li {
+  display: inline-block
+}
+
+.boton:hover {
+background-color: #5a5a5a;
+color: white;
+}
+
+.botonescont {
+display: block;
+}
+
+.instagram {
+display: inline-block;
+position: relative;
+left: 5px;
+top: 15px;
+}
+
+.contenedor_botones {
+  margin: 0 auto;
+}
+
+
+.piepagina {
+background-color: #5a5a5a;
+border-radius: 12px;
+padding: 10px 10px 30px 10px;
+height: auto;
+width: auto;
+margin: 0 auto;
+}
+
+.h2contacto {
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 0px;
+}
+
+.piepagina p {
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    padding: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
+}

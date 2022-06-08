@@ -1,0 +1,1 @@
+alert ('¡Tenemos promociones de verano! Aprovecha el 25% en todas tus compras arriba de $300 MXN');
